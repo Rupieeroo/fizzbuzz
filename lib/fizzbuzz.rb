@@ -9,3 +9,5 @@ def fizzbuzz(number)
     return number
   end
 end
+
+#to test in irb => type (1..100).each do |i|, puts fizzbuzz(i), end
