@@ -1,3 +1,4 @@
+#Method prints a fizzbuzz list, see README for info
 def fizzbuzz(number)
   return 'fizzbuzz' if number % 5 == 0 && number % 3 == 0
   return 'fizz' if number % 3 == 0
@@ -5,4 +6,7 @@ def fizzbuzz(number)
   return number else
 end
 
-#to test in irb => type (1..100).each do |i|, puts fizzbuzz(i), end
+# To test in irb => type:
+# (1..100).each do |i|
+#   puts fizzbuzz(i)
+# end
